@@ -48,7 +48,7 @@ The backend utilizes 8 interrelated SharePoint Online lists:
 
 ---
 
-## ⚡ The 52-Action Power Automate Automation
+## The 52-Action Power Automate Automation
 
 When an IT technician confirms equipment issuance in the Canvas app, the automated workflow triggers:
 
@@ -63,7 +63,7 @@ When an IT technician confirms equipment issuance in the Canvas app, the automat
 
 ---
 
-## 💻 Infrastructure-as-Code (PAC CLI & Python Build Tooling)
+## Infrastructure-as-Code (PAC CLI & Python Build Tooling)
 
 Unlike typical Canvas apps stored as opaque binary blobs (`.msapp`), this solution was authored with strict ALM discipline:
 
@@ -83,7 +83,7 @@ fxIsITOperator = fxUserRole in ["IT_Admin", "IT_Operator"];
 
 ---
 
-## 📈 Measurable Business Impact
+## Measurable Business Impact
 
 * **590+ Hardware Assets Managed:** Total visibility into laptop models, warranties, and physical locations.
 * **100% Paperless Protocols:** Replaced printed paper sign-off sheets with digital PDF protocols.
@@ -91,7 +91,7 @@ fxIsITOperator = fxUserRole in ["IT_Admin", "IT_Operator"];
 
 ---
 
-## 👨‍💻 Author
+## Author
 **Dawid Piotrowski**
 * Role: IT Automation & Power Platform Developer
 * LinkedIn: [linkedin.com/in/dawid-piotrowski0304](https://linkedin.com/in/dawid-piotrowski0304)
