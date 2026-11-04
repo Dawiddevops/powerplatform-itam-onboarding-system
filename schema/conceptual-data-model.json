@@ -1,0 +1,34 @@
+{
+  "model": "Conceptual asset lifecycle information model",
+  "classification": "Sanitized portfolio example; not a production schema",
+  "domains": [
+    {
+      "name": "requests",
+      "purpose": "Capture business needs and lifecycle progress"
+    },
+    {
+      "name": "inventory",
+      "purpose": "Represent assets and custody state"
+    },
+    {
+      "name": "people references",
+      "purpose": "Provide assignment and handover context"
+    },
+    {
+      "name": "handover evidence",
+      "purpose": "Associate lifecycle events with supporting documents"
+    },
+    {
+      "name": "configuration and reference values",
+      "purpose": "Manage settings and controlled choices"
+    },
+    {
+      "name": "access roles",
+      "purpose": "Describe role-aware application behavior"
+    },
+    {
+      "name": "audit history",
+      "purpose": "Make important changes reviewable"
+    }
+  ]
+}
