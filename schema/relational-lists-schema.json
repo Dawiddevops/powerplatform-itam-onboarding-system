@@ -1,0 +1,46 @@
+{
+  "architecture": "SharePoint Lists Relational Model",
+  "assetCount": 590,
+  "lists": [
+    {
+      "name": "Onb_Requests",
+      "columns": 18,
+      "primaryKey": "RequestNo"
+    },
+    {
+      "name": "Onb_Assets",
+      "columns": 16,
+      "primaryKey": "AssetTag"
+    },
+    {
+      "name": "Onb_People",
+      "columns": 10,
+      "primaryKey": "UPN"
+    },
+    {
+      "name": "Onb_Protocols",
+      "columns": 8,
+      "primaryKey": "ProtocolNo"
+    },
+    {
+      "name": "Onb_Config",
+      "columns": 4,
+      "primaryKey": "ConfigKey"
+    },
+    {
+      "name": "Onb_Dictionary",
+      "columns": 5,
+      "primaryKey": "ID"
+    },
+    {
+      "name": "Onb_Roles",
+      "columns": 4,
+      "primaryKey": "ID"
+    },
+    {
+      "name": "Onb_Log",
+      "columns": 8,
+      "primaryKey": "ID"
+    }
+  ]
+}
