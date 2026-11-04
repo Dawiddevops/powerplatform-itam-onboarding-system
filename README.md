@@ -30,7 +30,7 @@ flowchart TD
         FLOW -->|Audit Trail| LOG["Onb_AuditLog"]
     end
     
-    PDF -->|Digital Protocol (.pdf)| EMP["New Employee (Sign on Receipt)"]
+    PDF -->|"Digital Protocol (PDF)"| EMP["New Employee (Sign on Receipt)"]
     PDF -->|Archived Copy| DOCS["SharePoint Handover Protocols Library"]
     FLOW -->|Status Notifications| IT["IT Operations Team"]
 ```
