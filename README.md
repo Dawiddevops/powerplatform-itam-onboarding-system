@@ -6,7 +6,7 @@ An end-to-end enterprise IT Asset Management and employee lifecycle application 
 
 ---
 
-## 🎯 Architectural Highlights
+## Architectural Highlights
 
 * **Cost-Free Enterprise ITAM:** Delivers full IT Asset Management capabilities equivalent to commercial tools (like ServiceNow Asset Management or Jira Assets) strictly using existing Microsoft 365 E3 licenses with **zero additional per-user licensing costs**.
 * **52-Action Power Automate Automation:** Orchestrates ticket approvals, automated asset reservation, dynamic HTML-to-PDF handover protocol generation with digital signatures, and multi-party notifications.
@@ -15,29 +15,23 @@ An end-to-end enterprise IT Asset Management and employee lifecycle application 
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart TD
-    HR["HR / Hiring Manager"] -->|Submit Equipment Request| PA["Power Apps Canvas UI"]
-    
-    subgraph Core ["Power Platform Architecture"]
-        PA -->|Named Formulas & Validation| SPL[("8 SharePoint Lists (73 Columns)")]
-        SPL -->|Trigger on Fulfillment| FLOW["Power Automate Cloud Flow (52 Actions)"]
-        
-        FLOW -->|Generate Document| PDF["Dynamic HTML-to-PDF Engine"]
-        FLOW -->|Record Assignment| SPL
-        FLOW -->|Audit Trail| LOG["Onb_AuditLog"]
-    end
-    
+    HR["HR / Hiring Manager"] -->|"Submit Equipment Request"| PA["Power Apps Canvas Application"]
+    PA -->|"Validation & Named Formulas"| SPL[("SharePoint Online (8 Relational Lists)")]
+    SPL -->|"Automated Trigger on Fulfillment"| FLOW["Power Automate Cloud Flow (52 Actions)"]
+    FLOW -->|"Render Document"| PDF["HTML-to-PDF Conversion Engine"]
+    FLOW -->|"Audit Trail"| LOG["Onb_AuditLog Ledger"]
     PDF -->|"Digital Protocol (PDF)"| EMP["New Employee (Sign on Receipt)"]
-    PDF -->|Archived Copy| DOCS["SharePoint Handover Protocols Library"]
-    FLOW -->|Status Notifications| IT["IT Operations Team"]
+    PDF -->|"Archived Copy"| DOCS["SharePoint Handover Protocols Library"]
+    FLOW -->|"Status Notifications"| IT["IT Operations Team"]
 ```
 
 ---
 
-## 📋 Relational SharePoint Schema (8 Lists)
+## Relational SharePoint Schema (8 Lists)
 
 The backend utilizes 8 interrelated SharePoint Online lists:
 
