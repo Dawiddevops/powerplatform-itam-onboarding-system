@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+  <title id="title">Reconstructed ITAM operations preview</title>
+  <desc id="desc">A privacy-safe concept preview reconstructed from the public architecture documentation. It is not a production screenshot.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity=".12"/>
+    </filter>
+    <style>
+      .sans { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .title { font-size: 34px; font-weight: 700; fill: #fff; }
+      .subtitle { font-size: 17px; fill: #bfdbfe; }
+      .section { font-size: 20px; font-weight: 700; fill: #0f172a; }
+      .label { font-size: 15px; fill: #475569; }
+      .value { font-size: 24px; font-weight: 700; fill: #0f172a; }
+      .small { font-size: 13px; fill: #64748b; }
+      .card { fill: #fff; stroke: #dbeafe; stroke-width: 2; }
+      .line { stroke: #cbd5e1; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect width="1600" height="920" fill="#f8fafc"/>
+  <rect x="0" y="0" width="1600" height="170" fill="url(#header)"/>
+  <text x="72" y="68" class="sans title">Asset Lifecycle Concept</text>
+  <text x="72" y="104" class="sans subtitle">Reconstructed portfolio preview · request → allocation → handover</text>
+  <rect x="1192" y="46" width="330" height="48" rx="24" fill="#ffffff" fill-opacity=".12" stroke="#93c5fd"/>
+  <text x="1357" y="76" text-anchor="middle" class="sans subtitle">CONCEPT · NOT A PRODUCTION SCREENSHOT</text>
+  <text x="72" y="224" class="sans section">Operations overview</text>
+  <text x="72" y="254" class="sans label">The panels below are reconstructed from the documented process and schema.</text>
+  <g filter="url(#shadow)">
+    <rect x="72" y="286" width="334" height="142" rx="14" class="card"/>
+    <text x="100" y="326" class="sans label">Open requests</text>
+    <text x="100" y="374" class="sans value">Equipment intake</text>
+    <text x="100" y="403" class="sans small">Request register · request status</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="438" y="286" width="334" height="142" rx="14" class="card"/>
+    <text x="466" y="326" class="sans label">Inventory control</text>
+    <text x="466" y="374" class="sans value">Asset reservation</text>
+    <text x="466" y="403" class="sans small">Asset register · custody state</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="804" y="286" width="334" height="142" rx="14" class="card"/>
+    <text x="832" y="326" class="sans label">Handover evidence</text>
+    <text x="832" y="374" class="sans value">Protocol generation</text>
+    <text x="832" y="403" class="sans small">Protocol register · document link</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="1170" y="286" width="358" height="142" rx="14" class="card"/>
+    <text x="1198" y="326" class="sans label">Governance</text>
+    <text x="1198" y="374" class="sans value">Audit trail</text>
+    <text x="1198" y="403" class="sans small">Audit ledger · action and change history</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="72" y="474" width="710" height="330" rx="14" class="card"/>
+    <text x="104" y="518" class="sans section">Request → signed handover</text>
+    <line x1="104" y1="544" x2="750" y2="544" class="line"/>
+    <circle cx="142" cy="610" r="22" fill="#2563eb"/>
+    <text x="142" y="616" text-anchor="middle" class="sans" font-size="16" font-weight="700" fill="#fff">1</text>
+    <text x="184" y="606" class="sans section" font-size="18">Validate request</text>
+    <text x="184" y="632" class="sans label">Request context and asset availability</text>
+    <line x1="142" y1="636" x2="142" y2="670" stroke="#93c5fd" stroke-width="4"/>
+    <circle cx="142" cy="704" r="22" fill="#2563eb"/>
+    <text x="142" y="710" text-anchor="middle" class="sans" font-size="16" font-weight="700" fill="#fff">2</text>
+    <text x="184" y="700" class="sans section" font-size="18">Reserve inventory</text>
+    <text x="184" y="726" class="sans label">Record state transition and ownership</text>
+    <line x1="490" y1="610" x2="690" y2="610" stroke="#93c5fd" stroke-width="4"/>
+    <polygon points="690,610 674,600 674,620" fill="#2563eb"/>
+    <text x="490" y="586" class="sans small">Power Automate orchestration</text>
+    <text x="490" y="704" class="sans section" font-size="18">Render protocol</text>
+    <text x="490" y="730" class="sans label">HTML → PDF → SharePoint library</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="814" y="474" width="714" height="330" rx="14" class="card"/>
+    <text x="846" y="518" class="sans section">Operational safeguards</text>
+    <line x1="846" y1="544" x2="1496" y2="544" class="line"/>
+    <rect x="846" y="580" width="650" height="58" rx="10" fill="#eff6ff"/>
+    <circle cx="878" cy="609" r="10" fill="#2563eb"/>
+    <text x="906" y="615" class="sans section" font-size="17">Role-aware access</text>
+    <text x="1160" y="615" class="sans label">Role mapping</text>
+    <rect x="846" y="658" width="650" height="58" rx="10" fill="#f0fdf4"/>
+    <circle cx="878" cy="687" r="10" fill="#16a34a"/>
+    <text x="906" y="693" class="sans section" font-size="17">Recoverable automation</text>
+    <text x="1160" y="693" class="sans label">Try / Catch / Finally</text>
+    <rect x="846" y="736" width="650" height="42" rx="10" fill="#fff7ed"/>
+    <circle cx="878" cy="757" r="10" fill="#ea580c"/>
+    <text x="906" y="763" class="sans section" font-size="17">Sanitized public evidence</text>
+    <text x="1230" y="763" class="sans label">No tenant data</text>
+  </g>
+  <text x="72" y="866" class="sans small">Reconstructed from the public portfolio narrative and conceptual model · illustrative labels only</text>
+</svg>
