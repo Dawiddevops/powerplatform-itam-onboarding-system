@@ -2,6 +2,7 @@
 
 An end-to-end enterprise IT Asset Management and employee lifecycle application built on **Microsoft Power Platform** (Power Apps Canvas, Power Automate, SharePoint Online, and Power Platform CLI `pac`). It tracks **590+ enterprise IT assets** across their full lifecycle and automates employee equipment requests, transfers, offboardings, and digital handover protocols.
 
+[![Architecture & ADRs](https://img.shields.io/badge/Architecture-ADRs_%26_Design_Specs-blue?logo=mermaid&logoColor=white)](ARCHITECTURE.md)
 > **Portfolio note:** This repository is an architecture showcase and technical documentation. The production application operates within a private enterprise Microsoft 365 tenant. All organization domains, personal names, internal serial numbers, and Active Directory identifiers have been sanitized and replaced with illustrative placeholders (*EnterpriseCorp / user@domain.com*).
 
 ---
