@@ -13,6 +13,7 @@
       .sans { font-family: Inter, Segoe UI, Arial, sans-serif; }
       .title { font-size: 34px; font-weight: 700; fill: #fff; }
       .subtitle { font-size: 17px; fill: #bfdbfe; }
+      .pill-label { font-size: 15px; fill: #bfdbfe; }
       .section { font-size: 20px; font-weight: 700; fill: #0f172a; }
       .label { font-size: 15px; fill: #475569; }
       .value { font-size: 24px; font-weight: 700; fill: #0f172a; }
@@ -25,8 +26,8 @@
   <rect x="0" y="0" width="1600" height="170" fill="url(#header)"/>
   <text x="72" y="68" class="sans title">Asset Lifecycle Concept</text>
   <text x="72" y="104" class="sans subtitle">Reconstructed portfolio preview · request → allocation → handover</text>
-  <rect x="1192" y="46" width="330" height="48" rx="24" fill="#ffffff" fill-opacity=".12" stroke="#93c5fd"/>
-  <text x="1357" y="76" text-anchor="middle" class="sans subtitle">CONCEPT · NOT A PRODUCTION SCREENSHOT</text>
+  <rect x="1122" y="46" width="400" height="48" rx="24" fill="#ffffff" fill-opacity=".12" stroke="#93c5fd"/>
+  <text x="1322" y="76" text-anchor="middle" class="sans pill-label">CONCEPT · NOT A PRODUCTION SCREENSHOT</text>
   <text x="72" y="224" class="sans section">Operations overview</text>
   <text x="72" y="254" class="sans label">The panels below are reconstructed from the documented process and schema.</text>
   <g filter="url(#shadow)">
